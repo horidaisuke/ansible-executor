@@ -17,6 +17,8 @@ executors:
 
 ## Tags
 
+* `19.03.15-ansible-2.9.26`, `latest`
+
 ## License
 
 View [license information](https://github.com/horidaisuke/ansible-executor/blob/main/LICENSE) for the software contained in this image.
