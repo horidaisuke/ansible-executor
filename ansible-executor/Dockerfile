@@ -4,26 +4,19 @@ ENV ANSIBLE_LINT_VERSION 5.2.0
 RUN apk update \
  && apk add --no-cache \
     bash \
-    binutils \
     ca-certificates \
     curl \
-    git \
     openssh-client \
     openssl \
     py3-cryptography \
     py3-pip \
     python3\
-    rsync \
     sshpass \
-    unzip \
-    zip \
  && apk add --update --virtual .build-deps \
-    build-base \
     libffi-dev \
     openssl-dev \
     python3-dev \
  && pip3 install --upgrade \
-    cffi \
     pip \
  && pip3 install \
     ansible==${ANSIBLE_VERSION} \
