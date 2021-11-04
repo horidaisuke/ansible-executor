@@ -17,6 +17,8 @@ executors:
 
 ## Tags
 
+Tags name is made from join of [simple tags of docker](https://hub.docker.com/_/docker) and [versions of ansible](https://github.com/ansible/ansible/tags).
+
 * `20.10.9-ansible-2.9.27`, `latest`
 
 ## License
