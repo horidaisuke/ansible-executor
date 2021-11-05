@@ -17,7 +17,7 @@ executors:
 
 ## Tags
 
-* `18.09.9-ansible-2.9.26`, `latest`
+* `18.09.9-ansible-2.9.27`, `latest`
 
 ## License
 
