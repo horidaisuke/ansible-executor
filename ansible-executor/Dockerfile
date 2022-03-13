@@ -13,6 +13,7 @@ RUN apk update \
     python3\
     sshpass \
  && apk add --update --virtual .build-deps \
+    build-base \
     libffi-dev \
     openssl-dev \
     python3-dev \
