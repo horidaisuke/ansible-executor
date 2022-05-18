@@ -19,7 +19,7 @@ executors:
 
 Tags name is made from join of [simple tags of docker](https://hub.docker.com/_/docker) and [versions of ansible](https://github.com/ansible/ansible/tags).
 
-* `20.10.16-ansible-2.10.7`, `latest`
+* `20.10.16-ansible-3.4.0`, `latest`
 
 ## License
 
