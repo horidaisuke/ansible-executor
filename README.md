@@ -17,7 +17,7 @@ executors:
 
 ## Tags
 
-Tags name is made from join of [simple tags of docker](https://hub.docker.com/_/docker) and [versions of ansible](https://github.com/ansible/ansible/tags).
+Tags name is made from join of [simple tags of docker](https://hub.docker.com/_/docker) and [versions of ansible](https://github.com/ansible-community/ansible-build-data/tags).
 
 * `20.10.17-ansible-5.8.0`, `latest`
 
