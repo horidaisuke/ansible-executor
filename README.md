@@ -17,7 +17,7 @@ executors:
 
 ## Tags
 
-* `19.03.15-ansible-5.9.0`, `latest`
+* `19.03.15-ansible-6.4.0`, `latest`
 
 ## License
 

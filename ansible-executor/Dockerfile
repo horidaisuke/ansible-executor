@@ -1,5 +1,5 @@
 FROM library/docker:19.03.15
-ENV ANSIBLE_VERSION 5.9.0
+ENV ANSIBLE_VERSION 6.4.0
 ENV ANSIBLE_LINT_VERSION 5.2.0
 RUN apk update \
  && apk add --no-cache \
