@@ -1,4 +1,4 @@
-FROM library/docker:20.10.18
+FROM library/docker:20.10.21
 ENV ANSIBLE_VERSION 6.6.0
 ENV ANSIBLE_LINT_VERSION 6.8.1
 RUN apk update \
