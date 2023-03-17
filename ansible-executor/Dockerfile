@@ -19,7 +19,7 @@ RUN apk update \
     python3-dev \
  && pip3 install --upgrade \
     pip \
- && pip3 install \
+ && pip3 install --ignore-installed \
     ansible==${ANSIBLE_VERSION} \
     ansible-lint==${ANSIBLE_LINT_VERSION} \
  && rm -rf /root/.cache/pip \
