@@ -6,6 +6,7 @@ RUN apk update \
     bash \
     ca-certificates \
     curl \
+    git \
     openssh-client \
     openssl \
     py3-cryptography \
