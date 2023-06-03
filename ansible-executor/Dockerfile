@@ -1,4 +1,4 @@
-FROM library/docker:23.0.5
+FROM library/docker:23.0.6
 ENV ANSIBLE_VERSION 7.5.0
 ENV ANSIBLE_LINT_VERSION 6.15.0
 RUN apk update \
