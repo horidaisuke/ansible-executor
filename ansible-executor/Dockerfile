@@ -1,6 +1,6 @@
 FROM library/docker:24.0.6
 ENV ANSIBLE_VERSION 8.3.0
-ENV ANSIBLE_LINT_VERSION 6.20.0
+ENV ANSIBLE_LINT_VERSION 6.21.1
 RUN apk update \
  && apk add --no-cache \
     bash \
