@@ -1,7 +1,9 @@
 FROM library/docker:25.0.1
 ENV ANSIBLE_VERSION 9.1.0
 ENV ANSIBLE_LINT_VERSION 6.22.1
-RUN apk update \
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh \
+ && apk update \
  && apk add --no-cache \
     bash \
     ca-certificates \
@@ -11,7 +13,6 @@ RUN apk update \
     openssl \
     py3-cryptography \
     py3-pip \
-    python3\
     sshpass \
  && apk add --update --virtual .build-deps \
     build-base \
@@ -27,3 +28,4 @@ RUN apk update \
  && rm -rf /root/.cache/pip \
  && apk del .build-deps \
  && rm -rf /var/cache/apk/*
+ENTRYPOINT ["/entrypoint.sh"]
