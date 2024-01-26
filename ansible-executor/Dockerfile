@@ -18,9 +18,10 @@ RUN apk update \
     libffi-dev \
     openssl-dev \
     python3-dev \
- && pip3 install --upgrade \
-    pip \
- && pip3 install --ignore-installed \
+ && python3 -m venv venv \
+ && source venv/bin/activate \
+ && pip install --upgrade pip \
+ && pip install --ignore-installed \
     ansible==${ANSIBLE_VERSION} \
     ansible-lint==${ANSIBLE_LINT_VERSION} \
  && rm -rf /root/.cache/pip \
