@@ -1,4 +1,4 @@
-FROM library/docker:24.0.7
+FROM library/docker:24.0.7-alpine3.18
 ENV ANSIBLE_VERSION 9.2.0
 ENV ANSIBLE_LINT_VERSION 6.22.2
 RUN apk update \
