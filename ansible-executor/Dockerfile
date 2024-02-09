@@ -1,6 +1,6 @@
 FROM library/docker:25.0.1
 ENV ANSIBLE_VERSION 9.1.0
-ENV ANSIBLE_LINT_VERSION 6.22.1
+ENV ANSIBLE_LINT_VERSION 6.22.2
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh \
  && apk update \
