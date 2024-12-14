@@ -4,7 +4,7 @@ version: 2.1
 executors:
   docker:
     docker:
-      - image: library/docker:latest
+      - image: cimg/base:current
         auth:
           username: $DOCKER_LOGIN
           password: $DOCKER_PASSWORD
