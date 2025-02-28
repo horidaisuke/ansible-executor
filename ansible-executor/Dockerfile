@@ -1,5 +1,5 @@
 FROM library/docker:26.1.4
-ENV ANSIBLE_VERSION 11.1.0
+ENV ANSIBLE_VERSION 11.3.0
 ENV ANSIBLE_LINT_VERSION 25.1.3
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh \
