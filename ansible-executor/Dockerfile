@@ -1,4 +1,4 @@
-FROM library/docker:27.5.1
+FROM library/docker:28.0.1
 ENV ANSIBLE_VERSION 11.3.0
 ENV ANSIBLE_LINT_VERSION 25.1.3
 COPY entrypoint.sh /entrypoint.sh
