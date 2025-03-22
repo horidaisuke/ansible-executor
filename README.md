@@ -1,5 +1,7 @@
-# ansible-executor
-Circleci executor installed ansible
+# [Departed] ansible-executor
+
+This repository will be no longer maintenance.
+Recommend to use [Circleci Orbs](https://circleci.com/developer/orbs)
 
 ## Usage
 
